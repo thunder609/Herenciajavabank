@@ -1,7 +1,9 @@
+package nuevo;
+
 public class TestControlBonificacion {
 
     public static void main(String[] args) {
-        Funcionario f = new  Contador();
+/*        Funcionario f = new Contador();
         f.setSalario(100);
         Gerente g = new Gerente();
         g.setSalario(200);
@@ -11,6 +13,6 @@ public class TestControlBonificacion {
         control.registratSalario(f);
         control.registratSalario(g);
         control.registratSalario(c);
-        System.out.println("suma"+control.getSuma());
+        System.out.println("suma"+control.getSuma());*/
     }
 }
