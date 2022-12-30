@@ -1,5 +1,13 @@
 public class Gerente extends Funcionario implements  Autenticable {
     private String clave;
+    private AutenticacionUtil u;
+
+    public Gerente() {
+        this.u= new AutenticacionUtil();
+
+    }
+
+
     public double getBonificacion() {
         System.out.println("ejecutando desde gerente");
      //   return this.getSalario() + (this.getSalario() *0.2);
